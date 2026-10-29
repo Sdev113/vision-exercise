@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A calm, guided visual wellness practice for screen-tired eyes." />
+  <title>Vision Exercise — First-day mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Vision Exercise home">Vision Exercise</a>
+    <nav aria-label="Primary navigation">
+      <a href="#practice">Practice</a>
+      <a href="#how">How it works</a>
+      <a href="#warmups">Warm-ups</a>
+    </nav>
+    <button class="button button-small button-outline" data-open="signin">Sign in</button>
+  </header>
+
+  <main id="top">
+    <div class="prototype-note" style="background:#dfe8dc;border-bottom:1px solid rgba(23,59,55,.14);padding:9px 18px;text-align:center;font-size:10px;letter-spacing:.04em;color:#617a75">First-day concept mockup · Content and branding are temporary</div>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">A calmer way to look</span>
+        <h1>Give your eyes a moment to <em>reset.</em></h1>
+        <p class="hero-lede">Short, guided visual exercises designed to bring more variety and intention to your screen routine.</p>
+        <div class="hero-actions">
+          <button class="button button-primary" data-open="self-test">Start your free week <span>→</span></button>
+          <a class="text-link" href="#how">See how it works <span>↓</span></a>
+        </div>
+        <p class="microcopy">No card required · Cancel anytime</p>
+      </div>
+      <div class="hero-art" aria-label="Abstract visual focus illustration">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="focus-card">
+          <div class="focus-dots"><span></span><span></span><span></span></div>
+          <p>Take a breath</p>
+          <strong>Look beyond the screen</strong>
+          <div class="breath-line"><i></i></div>
+          <small>01:42 remaining</small>
+        </div>
+        <span class="float-note note-one">Breathe slowly</span>
+        <span class="float-note note-two">Soften your focus</span>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Program highlights">
+      <div><strong>5–10</strong><span>minute sessions</span></div>
+      <div><strong>12</strong><span>guided visuals</span></div>
+      <div><strong>2</strong><span>viewing methods</span></div>
+      <p>Designed for desktop and mobile browsers</p>
+    </section>
+
+    <section class="practice-section" id="practice">
+      <div class="section-heading split-heading">
+        <div>
+          <span class="eyebrow">Your daily practice</span>
+          <h2>A little variety for your visual routine.</h2>
+        </div>
+        <p>Choose a guided 3D exercise or begin with a gentle warm-up. Your recent sessions and favorites stay close at hand.</p>
+      </div>
+
+      <div class="app-shell">
+        <aside class="app-sidebar">
+          <div class="sidebar-brand">Vision Exercise</div>
+          <button class="side-link active" data-view="today"><span>◌</span> Today</button>
+          <button class="side-link" data-view="library"><span>□</span> Exercise library</button>
+          <button class="side-link" data-view="warmups"><span>↗</span> Warm-ups</button>
+          <button class="side-link" data-view="progress"><span>⌁</span> Progress</button>
+          <div class="sidebar-bottom">
+            <span>Free trial</span>
+            <div class="trial-meter"><i></i></div>
+            <small>7 days remaining</small>
+          </div>
+        </aside>
+        <div class="app-main">
+          <div class="app-topline">
+            <div><span class="eyebrow">Wednesday, October 28</span><h3>Good afternoon.</h3></div>
+            <button class="avatar" aria-label="Open account menu">ET</button>
+          </div>
+
+          <div class="dashboard-view active" data-panel="today">
+            <article class="recommended-card">
+              <div>
+                <span class="chip chip-light">Recommended for you</span>
+                <h3>Basic divergence</h3>
+                <p>A gentle two-minute practice to soften your focus and look beyond the image.</p>
+                <button class="button button-dark" data-open="session">Begin practice <span>→</span></button>
+              </div>
+              <div class="mini-stereogram" aria-label="Placeholder for licensed stereogram">
+                <div class="pattern pattern-a"></div>
+                <span>Licensed image placeholder</span>
+              </div>
+            </article>
+            <div class="dashboard-grid">
+              <article class="mini-panel">
+                <div class="panel-title"><h4>Continue practicing</h4><button>View all</button></div>
+                <div class="exercise-row">
+                  <div class="thumb pattern pattern-b"></div>
+                  <div><strong>Floating spiral</strong><span>Convergence · Basic</span></div>
+                  <button class="circle-button" data-open="session" aria-label="Continue exercise">→</button>
+                </div>
+                <div class="exercise-row">
+                  <div class="thumb pattern pattern-c"></div>
+                  <div><strong>Quiet horizon</strong><span>Divergence · Intermediate</span></div>
+                  <button class="circle-button" data-open="session" aria-label="Continue exercise">→</button>
+                </div>
+              </article>
+              <article class="mini-panel session-panel">
+                <div class="panel-title"><h4>This week</h4><span class="chip">3 sessions</span></div>
+                <div class="week-bars" aria-label="Three sessions completed this week">
+                  <div><i style="height:28%"></i><small>M</small></div><div><i style="height:74%"></i><small>T</small></div><div><i style="height:52%"></i><small>W</small></div><div><i></i><small>T</small></div><div><i></i><small>F</small></div><div><i></i><small>S</small></div><div><i></i><small>S</small></div>
+                </div>
+                <p><strong>7 minutes</strong> of intentional visual breaks</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="dashboard-view" data-panel="library">
+            <div class="panel-title"><div><span class="eyebrow">Explore</span><h3>Exercise library</h3></div><span class="chip">12 exercises</span></div>
+            <div class="filter-row"><button class="filter active">All</button><button class="filter">Basic</button><button class="filter">Intermediate</button><button class="filter">Advanced</button></div>
+            <div class="library-grid" id="library-grid"></div>
+          </div>
+          <div class="dashboard-view" data-panel="warmups">
+            <span class="eyebrow">Prepare gently</span><h3>Warm-up exercises</h3>
+            <div class="warmup-list compact" id="warmup-app-list"></div>
+          </div>
+          <div class="dashboard-view" data-panel="progress">
+            <span class="eyebrow">Your activity</span><h3>Progress</h3>
+            <div class="progress-stats"><div><strong id="session-count">3</strong><span>sessions</span></div><div><strong>7 min</strong><span>practice time</span></div><div><strong>2</strong><span>favorites</span></div></div>
+            <p class="muted">Progress is presented as practice activity—not as a medical result or health outcome.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-section" id="how">
+      <div class="section-heading centered">
+        <span class="eyebrow">Simple by design</span>
+        <h2>From screen-tired to screen-aware.</h2>
+        <p>Three small steps create a practice that meets you where you are.</p>
+      </div>
+      <div class="steps">
+        <article><span>01</span><div class="step-icon target-icon"></div><h3>Find your starting point</h3><p>A short self-check helps you choose between convergence and divergence exercises.</p></article>
+        <article><span>02</span><div class="step-icon breathe-icon"></div><h3>Follow a guided session</h3><p>Clear cues, gentle timing, and optional sounds help you stay present.</p></article>
+        <article><span>03</span><div class="step-icon grow-icon"></div><h3>Build a steady rhythm</h3><p>Save favorites and keep a simple history of your completed practices.</p></article>
+      </div>
+    </section>
+
+    <section class="warmups-section" id="warmups">
+      <div class="section-heading split-heading">
+        <div><span class="eyebrow">Before you begin</span><h2>Warm up, then look deeper.</h2></div>
+        <p>Gentle preparatory activities from the original program, presented in a calmer and more accessible format.</p>
+      </div>
+      <div class="warmup-list" id="warmup-list"></div>
+    </section>
+
+    <section class="trial-section">
+      <span class="eyebrow">Seven days, on us</span>
+      <h2>Start small. Notice what feels good.</h2>
+      <p>Explore selected exercises free for one week. Subscribe only if you want the complete practice library.</p>
+      <button class="button button-light" data-open="self-test">Begin your free week <span>→</span></button>
+      <small>Wellness education only. Not a substitute for professional eye care.</small>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#top">Vision Exercise</a><p>Visual wellness for modern screen life.</p><span>First-day mockup · Not final</span></footer>
+
+  <dialog id="self-test" class="modal">
+    <button class="modal-close" data-close aria-label="Close">×</button>
+    <span class="eyebrow">Your starting point</span>
+    <div class="test-progress"><i></i></div>
+    <div class="test-step active" data-step="1">
+      <h2>How comfortable are you with 3D stereogram images?</h2>
+      <p>There are no right or wrong answers. This simply helps tailor your starting practice.</p>
+      <div class="answer-list"><button data-answer="new">I’m completely new</button><button data-answer="some">I’ve seen them a few times</button><button data-answer="easy">I can usually see them easily</button></div>
+    </div>
+    <div class="test-step" data-step="2">
+      <h2>Which viewing method feels more challenging?</h2>
+      <p>You can change this selection later.</p>
+      <div class="answer-list"><button data-result="divergence">Looking beyond an image</button><button data-result="convergence">Slightly crossing my eyes</button><button data-result="balanced">I’m not sure yet</button></div>
+    </div>
+    <div class="test-step" data-step="3">
+      <span class="result-mark">✓</span><h2>Your starting practice is ready.</h2><p id="test-result">We recommend beginning with a basic guided session.</p>
+      <button class="button button-primary full" data-close data-open="session">Start two-minute practice</button>
+    </div>
+  </dialog>
+
+  <dialog id="session" class="modal session-modal">
+    <button class="modal-close" data-close aria-label="Close">×</button>
+    <div class="session-header"><div><span class="eyebrow">Basic · Divergence</span><h2>Quiet horizon</h2></div><button class="favorite" aria-label="Save favorite">♡</button></div>
+    <div class="viewing-marks" aria-label="Two viewing reference marks"><span></span><span></span></div>
+    <div class="session-image pattern pattern-a"><span>Licensed stereogram will appear here</span></div>
+    <p class="session-cue" id="session-cue">Soften your gaze and imagine looking beyond the image.</p>
+    <div class="timer"><button id="timer-toggle" aria-label="Pause timer">Ⅱ</button><strong id="timer-display">02:00</strong><button id="sound-toggle" aria-label="Toggle sound">♪</button></div>
+    <div class="timer-track"><i id="timer-progress"></i></div>
+    <div class="session-actions"><button data-close>End session</button><button id="next-cue">Next cue →</button></div>
+  </dialog>
+
+  <dialog id="signin" class="modal signin-modal">
+    <button class="modal-close" data-close aria-label="Close">×</button><span class="eyebrow">Welcome back</span><h2>Continue your practice.</h2>
+    <label>Email<input type="email" placeholder="you@example.com"></label><label>Password<input type="password" placeholder="••••••••"></label>
+    <button class="button button-primary full">Sign in</button><p class="muted">Account connection will be enabled in the authentication milestone.</p>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
